@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery - Ahmad Raza Eid</title>
+<style>
+body {
+  text-align:center;
+  background:#000; 
+  color:white;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  color: gold;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gallery-container img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌙 Eid Gallery 🌙</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="gallery-container">
+  <img src="images/eid1.jpg" alt="Eid Picture 1">
+  <img src="images/eid2.jpg" alt="Eid Picture 2">
+  <img src="images/eid3.jpg" alt="Eid Picture 3">
+  <img src="images/eid4.jpg" alt="Eid Picture 4">
+  <img src="images/eid5.jpg" alt="Eid Picture 5">
+  <img src="images/eid6.jpg" alt="Eid Picture 6">
+  <img src="images/eid7.jpg" alt="Eid Picture 7">
+  <img src="images/eid8.jpg" alt="Eid Picture 8">
+  <img src="images/eid9.jpg" alt="Eid Picture 9">
+  <img src="images/eid10.jpg" alt="Eid Picture 10">
+</div>
+
+</body>
+</html>
